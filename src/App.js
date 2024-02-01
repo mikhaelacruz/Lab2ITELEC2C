@@ -10,8 +10,13 @@ import Footer from "./Footer.js";
 import {
   BestSellers,
   Buy1Take1Data,
+  ChickenAndSides,
+  Drinks,
+  GroupMeals,
+  Pasta,
   Pizza,
   PizzaDeals,
+  SoloMeals,
   WhatsNewData,
 } from "./data.js";
 //console.log(itemsData);
@@ -24,14 +29,19 @@ function App() {
         <Status />
         <Storebtn />
         <ProductContainer name="Buy 1 Take 1" data={Buy1Take1Data} />
-        <ProductContainer name="Whats New" data={WhatsNewData} />
+        <ProductContainer name="What's New" data={WhatsNewData} />
         <ProductContainer name="Best Sellers" data={BestSellers} />
         <ProductContainer name="Pizza" data={Pizza} />
         <ProductContainer name="Pizza Deals" data={PizzaDeals} />
+        <ProductContainer name="Pasta" data={Pasta} />
+        <ProductContainer name="Group Meals" data={GroupMeals} />
+        <ProductContainer name="Solo Meals" data={SoloMeals} />
+        <ProductContainer name="Chicken and Sides" data={ChickenAndSides} />
+        <ProductContainer name="Drinks" data={Drinks} />
       </div>
 
       <div className="ToTop">
-        <a href="#">^ Back to top</a>
+        <a href="#"> ↑ Back to top</a>
       </div>
 
       <Footer />

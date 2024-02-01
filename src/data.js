@@ -245,3 +245,198 @@ export const PizzaDeals = [
     image: "PizzaDeals/6.png",
   },
 ];
+
+export const Pasta = [
+  {
+    name: "Lasagna Supreme Solo",
+    price: "Starts at ₱99.OO",
+    image: "Pasta/1.png",
+  },
+  {
+    name: "Lasagna Supreme Pan",
+    price: "Starts at ₱330.OO",
+    image: "Pasta/2.png",
+  },
+  {
+    name: "Meaty Spaghetti Solo",
+    price: "₱100.OO only",
+    image: "Pasta/3.png",
+  },
+  {
+    name: "Meaty Spaghetti Pan",
+    price: "Starts at ₱256.OO",
+    image: "Pasta/4.png",
+  },
+  {
+    name: "Creamy Bacon Carbonara Solo",
+    price: "₱256.OO only",
+    image: "Pasta/5.png",
+  },
+  {
+    name: "Creamy Bacon Carbonara Pan",
+    price: "Starts at ₱346.OO",
+    image: "Pasta/6.png",
+  },
+  {
+    name: "Creamy Carbonara Solon",
+    price: "₱144.OO only",
+    image: "Pasta/7.png",
+  },
+  {
+    name: "Creamy Carbonara Pan",
+    price: "Starts at ₱346.OO",
+    image: "Pasta/8.png",
+  },
+];
+
+export const GroupMeals = [
+  {
+    name: "Overload Creations Bundle",
+    price: "₱599.OO only",
+    image: "GroupMeals/1.png",
+  },
+  {
+    name: "Overload Bundle for 2",
+    price: "₱575.OO only",
+    image: "GroupMeals/2.png",
+  },
+  {
+    name: "Overload Creations Bundle 599",
+    price: "₱599.OO only",
+    image: "GroupMeals/3.png",
+  },
+  {
+    name: "Overload Creations Bundle 999",
+    price: "₱999.OO only",
+    image: "GroupMeals/4.png",
+  },
+  {
+    name: "Overload Bundle For 8",
+    price: "₱1,399.OO only",
+    image: "GroupMeals/5.png",
+  },
+];
+
+export const SoloMeals = [
+  {
+    name: "Pizza Meal Combo A",
+    price: "₱189.00 only",
+    image: "SoloMeals/1.png",
+  },
+  {
+    name: "Pizza Meal Combo B",
+    price: "₱245.00 only",
+    image: "SoloMeals/2.png",
+  },
+  {
+    name: "Lasagna Chicken Combo",
+    price: "₱212.00 only",
+    image: "SoloMeals/3.png",
+  },
+  {
+    name: "Creamy Carbonara Chicken Combo",
+    price: "₱223.00 only",
+    image: "SoloMeals/4.png",
+  },
+  {
+    name: "Creamy Bacon Carbonara Chicken Combo",
+    price: "₱223.00 only",
+    image: "SoloMeals/5.png",
+  },
+  {
+    name: "Spaghetti Chicken Combo",
+    price: "₱167.00 only",
+    image: "SoloMeals/6.png",
+  },
+  {
+    name: "Pizza Combo Meal C",
+    price: "₱88.00 only",
+    image: "SoloMeals/7.png",
+  },
+  {
+    name: "1 pc Crunchy Chicken with Rice",
+    price: "₱122.00 only",
+    image: "SoloMeals/8.png",
+  },
+  {
+    name: "2 pcs Crunchy Chicken with Rice",
+    price: "₱122.00 only",
+    image: "SoloMeals/9.png",
+  },
+  {
+    name: "Roast Beef Pizza Rice Bake Chicken Combo",
+    price: "₱185.00 only",
+    image: "SoloMeals/10.png",
+  },
+  {
+    name: "Chorizo Pepperoni Pizza Rice Bake Chicken Combo",
+    price: "₱185.00 only",
+    image: "SoloMeals/11.png",
+  },
+  {
+    name: "Ham & Bacon Pizza Rice Bake Chicken Combo",
+    price: "₱185.00 only",
+    image: "SoloMeals/12.png",
+  },
+];
+
+export const ChickenAndSides = [
+  {
+    name: "Crunchy Chicken",
+    price: "₱391.00 only",
+    image: "ChickenAndSides/1.png",
+  },
+  {
+    name: "Potato Waves",
+    price: "₱77.00 only",
+    image: "ChickenAndSides/2.png",
+  },
+  {
+    name: "Chicken and Waves",
+    price: "₱308.00 only",
+    image: "ChickenAndSides/3.png",
+  },
+  {
+    name: "3pcs. Garlic Sticks with Cheese Dip",
+    price: "₱56.00 only",
+    image: "ChickenAndSides/4.png",
+  },
+  {
+    name: "3pcs. Garlic Sticks",
+    price: "₱50.00 only",
+    image: "ChickenAndSides/5.png",
+  },
+  {
+    name: "Extra Hot Sauce",
+    price: "₱6.00 only",
+    image: "ChickenAndSides/6.png",
+  },
+  {
+    name: "Extra Gravy",
+    price: "₱17.00 only",
+    image: "ChickenAndSides/7.png",
+  },
+  {
+    name: "Extra Ketchup",
+    price: "₱77.00 only",
+    image: "ChickenAndSides/8.png",
+  },
+  {
+    name: "Extra Cheese Dip",
+    price: "₱17.00 only",
+    image: "ChickenAndSides/9.png",
+  },
+];
+
+export const Drinks = [
+  {
+    name: "1.5L Coke",
+    price: "₱99.00 only",
+    image: "Drinks/1.png",
+  },
+  {
+    name: "1L Pepsi",
+    price: "₱85.00 only",
+    image: "Drinks/2.png",
+  },
+];

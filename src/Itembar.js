@@ -9,7 +9,7 @@ export default function Itembar() {
         </li>
 
         <li>
-          <a href="#Whats New">Whats New</a>
+          <a href="#What's New">What's New</a>
         </li>
 
         <li>
