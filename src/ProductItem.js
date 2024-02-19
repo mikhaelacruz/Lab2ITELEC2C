@@ -10,7 +10,9 @@ export default function ProductItem(props) {
       ></img>
       <div className="ProductInfo">
         <h1>{props.data.name}</h1>
-        <h2>{props.data.price}</h2>
+        <h2 style={{ color: props.data.quantity === 0 ? "red" : "green" }}>
+          {props.data.quantity === 0 ? "Sold Out" : props.data.price}
+        </h2>
       </div>
     </div>
   );

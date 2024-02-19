@@ -1,38 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap");
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f8f8f8;
-  font-family: 'Source Sans 3',sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   scroll-behavior: smooth;
 }
 
 code {
-  font-family: 'Source Sans 3',sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 * {
-  font-family: 'Source Sans 3',sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   scroll-behavior: smooth;
 }
-
 
 .ProductContainer {
   font-size: 12px;
   margin-bottom: 1rem;
-  width: 59%
+  width: 80%;
 }
 
 .centered {
   display: flex;
   flex-direction: column;
-  align-items: center   ;   
+  align-items: center;
 }
 .Items {
   display: flex;
@@ -45,22 +43,25 @@ code {
   background-color: white;
   border-radius: 5px;
   overflow: hidden;
-  width: 13rem;
-  min-height: 16rem;
+  width: 11rem;
+  min-height: 22rem;
   box-sizing: border-box;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+  box-shadow:
+    0 1px 2px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.03);
 }
 
 .ProductItem:hover {
   cursor: pointer;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .ProductImage {
   height: 60% !important;
   width: 100%;
   object-fit: cover !important;
-
 }
 
 .Storebtn {
@@ -70,8 +71,12 @@ code {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  background: rgb(0,172,36);
-  background: linear-gradient(90deg, rgba(0,172,36,1) 74%, rgba(5,125,30,1) 100%);
+  background: rgb(0, 172, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 172, 36, 1) 74%,
+    rgba(5, 125, 30, 1) 100%
+  );
 
   width: 59%;
   color: white;
@@ -100,15 +105,13 @@ code {
   justify-content: space-between;
 }
 
-.ProductInfo h1{
-  font-weight:bold;
+.ProductInfo h1 {
+  font-weight: bold;
 }
-
 
 .ProductInfo h2 {
   color: #00ac24;
 }
-
 
 .Footer {
   margin-top: 5rem;
@@ -116,8 +119,12 @@ code {
   height: 4.5rem;
   color: white;
   font-size: 12px;
-  background: rgb(0,172,36);
-  background: linear-gradient(180deg, rgba(0,172,36,1) 0%, rgba(5,125,30,1) 100%);
+  background: rgb(0, 172, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 172, 36, 1) 0%,
+    rgba(5, 125, 30, 1) 100%
+  );
   text-align: center;
   display: flex;
   align-items: center;
@@ -125,53 +132,58 @@ code {
 }
 
 .Itembar {
-  height: 3.5rem;
+  height: 5.5rem;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
   padding: none;
-  background: rgb(244,243,243);
-  background: linear-gradient(180deg, rgba(244,243,243,1) 0%, rgba(255,255,255,1) 45%);
+  background: rgb(244, 243, 243);
+  background: linear-gradient(
+    180deg,
+    rgba(244, 243, 243, 1) 0%,
+    rgba(255, 255, 255, 1) 45%
+  );
   position: sticky;
   top: 5rem;
 }
 
-.Itembar ul{
+.Itembar ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  width: 59%;
+  width: 90%;
   box-sizing: border-box;
   font-size: 13px;
-  height: 2.5rem;
+  height: 4.6rem;
   gap: 1rem;
   justify-content: flex-start;
 }
 
-.Itembar ul li{
+.Itembar ul li {
   height: 100%;
   box-sizing: border-box;
   text-align: center;
   font-weight: 550;
-  min-width: 5.7rem;
+  font-size: 2px;
+  min-width: 3rem;
   padding-top: 7px;
 }
 
-.Itembar ul li a{
+.Itembar ul li a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-size: 14px;
- }
+  font-size: small;
+}
 
-.Itembar ul li:hover{
-  color:  #00ac24 !important;
-  cursor: pointer; 
+.Itembar ul li:hover {
+  color: #00ac24 !important;
+  cursor: pointer;
   border-bottom: 3px solid #00ac24;
 }
 
-.Itembar ul li:hover a{
-  color:  #00ac24 !important;
+.Itembar ul li:hover a {
+  color: #00ac24 !important;
 }
 
 .linkactive {
@@ -179,7 +191,7 @@ code {
 }
 
 .linkactive a {
-  color:  #00ac24 !important;
+  color: #00ac24 !important;
 }
 
 .Navbar {
@@ -196,10 +208,10 @@ code {
 .Navbar div {
   display: flex;
   align-items: center;
-  width: 59%;
+  width: 80%;
 }
 
-.Navbar div div{
+.Navbar div div {
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -219,7 +231,7 @@ code {
 
 .ToTop a {
   text-decoration: none;
-  color:  #00ac24;
+  color: #00ac24;
   font-weight: bold;
 }
 
@@ -240,7 +252,7 @@ code {
 .IconText {
   display: flex;
   flex-direction: row;
-  width: 5.5rem!important;
+  width: 5.5rem !important;
   justify-content: flex-end;
   gap: none;
 }

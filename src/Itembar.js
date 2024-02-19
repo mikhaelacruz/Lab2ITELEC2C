@@ -1,19 +1,33 @@
 import "./index.css";
-
-export default function Itembar() {
+import { useState } from "react";
+export default function Itembar(props) {
+  //destructure
+  const { selectedItem, setSelectedItem } = props;
   return (
     <div className="Itembar">
       <ul>
-        <li className="linkactive">
-          <a href="#Buy 1 Take 1">Buy 1 Take 1</a>
+        <li className={selectedItem === "Buy 1 Take 1" ? "linkactive" : ""}>
+          <a
+            href="#Buy 1 Take 1"
+            onClick={() => setSelectedItem("Buy 1 Take 1")}
+          >
+            Buy 1 Take 1
+          </a>
         </li>
 
-        <li>
-          <a href="#What's New">What's New</a>
+        <li className={selectedItem === "What's New" ? "linkactive" : ""}>
+          <a href="#What's New" onClick={() => setSelectedItem("What's New")}>
+            What's New
+          </a>
         </li>
 
-        <li>
-          <a href="#Best Sellers">Best Sellers</a>
+        <li className={selectedItem === "Best Sellers" ? "linkactive" : ""}>
+          <a
+            href="#Best Sellers"
+            onClick={() => setSelectedItem("Best Sellers")}
+          >
+            Best Sellers
+          </a>
         </li>
 
         <li>
